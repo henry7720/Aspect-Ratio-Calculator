@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
   <head>
     <title>Aspect Ratio Calculator</title>
@@ -8,13 +8,13 @@
   </head>
   <body>
     <h1>Aspect Ratio Calculator</h1>
-    <p>Here is the Aspect Ratio Calculator. Select which aspect ratio type you want, then select which dimension input type you want, then type your value to calculate for in the dimension input.</p>
+    <p>Here is the 16:9 &amp; 4:3 Aspect Ratio Calculator. Select which aspect ratio type you want, then select which dimension input type you want, then type your value to calculate your selected aspect ratio.</p>
     <p>Aspect Ratio:</p>
     <input type="radio" id="16-9-radio" name="aspect-ratio-radio" checked>
-    <label for="16-9-radio">16:9</label>
+    <label for="16-9-radio">16:9 (1.77:1)</label>
     <br>
     <input type="radio" id="4-3-radio" name="aspect-ratio-radio">
-    <label for="4-3-radio">4:3</label>
+    <label for="4-3-radio">4:3 (1.33:1)</label>
     <p>Dimension Type:</p>
     <input type="radio" id="width-radio" name="dimension-radio" checked>
     <label for="width-radio">Width</label>
@@ -24,7 +24,7 @@
     <br>
     <br>
     <input id="dimension-input" type="number" placeholder="Width or Height">
-    <p id="result-output">Enter your dimension in pixels.</p>
+    <p id="result-output">Please enter your dimension length in pixels.</p>
     <script src="calculator.js"></script>
   </body>
 </html>
